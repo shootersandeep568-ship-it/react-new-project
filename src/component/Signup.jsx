@@ -18,6 +18,7 @@ function Signup() {
     function SignupPopUp() {
         toast.success("Succesfulll");
     }
+    console.log(SignupPopUp)
     const Navigate = useNavigate();
     function handleSignup(e) {
         e.preventDefault()
