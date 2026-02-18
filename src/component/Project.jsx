@@ -23,7 +23,7 @@ function Project() {
   }, {})
 
   const filterData = (cate) => {
-    const filterItems = filterApi.filter((item) => item.category == cate);
+    const filterItems = filterApi.filter((item) => item.category === cate);
     setFilterApi(filterItems);
   };
 
