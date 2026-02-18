@@ -17,6 +17,7 @@ function Login() {
     toast.success("Succesfulll");
   }
   const Navigate = useNavigate();
+  console.log(loginPopUp)
   
   function handleSubmit(e) {
     e.preventDefault()
@@ -52,4 +53,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Login 
