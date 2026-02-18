@@ -9,7 +9,7 @@ import Signup from './component/Signup';
 import Details from './component/componet1/Details';
 import Blogs from './component/Blogs';
 import Postdetails from './component/componet1/Postdetails';
-import { CartProvider, useCart } from "react-use-cart";
+import { CartProvider,} from "react-use-cart";
 import Cart from './component/Cart';
 
 function App() {

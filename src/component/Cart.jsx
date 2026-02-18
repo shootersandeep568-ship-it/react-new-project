@@ -1,5 +1,4 @@
 import React from 'react'
-import img from '../component/componet1/img/m.jpg'
 import { useCart } from "react-use-cart";
 
 function Cart() {
