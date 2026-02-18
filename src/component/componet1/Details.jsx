@@ -11,7 +11,7 @@ function Details() {
     async function getData() {
         let getApiData = await fetch("https://dummyjson.com/products");
         let jsondata = await getApiData.json();
-        const filterData = jsondata.products.find((item) => item.id == id);
+        const filterData = jsondata.products.find((item) => item.id === id);
         setApiData(filterData);
     }
     useEffect(() => {
